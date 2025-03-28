@@ -11,7 +11,8 @@ export class SmallCardComponent {
   photoCover: string ="";
   @Input()
   title: string ='';
-  
+  @Input()
+  id:string ='';
   constructor(){
 
   }
